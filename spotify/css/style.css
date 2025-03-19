@@ -8,11 +8,15 @@
 
 {
     width: 100%;
-    height: calc(100vh - altezza-header - altezza-player);
+    height: calc(100vh - 60px - 90px);
     overflow-y: auto;
     padding: 20px;
     background-color: #121212;
     color: white;
+    position: fixed;
+    left: 250px;
+    box-sizing: border-box;
+    top: 60px;
 }
 
 .sidebar {
