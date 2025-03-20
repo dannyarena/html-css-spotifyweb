@@ -29,6 +29,9 @@
     left: 0; 
     padding: 20px; 
     overflow-y: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .player {
@@ -60,3 +63,37 @@
     z-index: 10; 
   }
   
+  .button
+  {
+    width: 55px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+  .button {
+      width: 30px; 
+      margin-bottom: 10px;
+  }
+
+  .sidebar {
+      width: 80px;
+      
+
+}
+
+.main-container {
+  width: calc(100% - 80px); 
+  left: 80px; 
+
+}
+
+.header {
+  width: calc(100% - 80px); 
+  left: 80px; 
+}
