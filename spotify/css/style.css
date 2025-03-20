@@ -87,7 +87,7 @@ html, body {
   justify-content: space-between;
 }
 
-/* Nascondiamo le descrizioni dei pulsanti su XS */
+/* Nasconde le descrizioni dei pulsanti su XS */
 .button-description {
   display: none;
 }
@@ -98,12 +98,13 @@ html, body {
 }
 
 .profile-circle {
-  width: 40px; /* Diametro del cerchio */
+  width: 40px; 
   height: 40px;
-  background-color: #b8b8b8; /* Colore grigio scuro */
-  border-radius: 50%; /* Rende il div completamente circolare */
+  background-color: #b8b8b8; 
+  border-radius: 50%; 
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
