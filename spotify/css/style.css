@@ -95,3 +95,15 @@ html, body {
 .bottom-buttons
 {
   margin-top: auto;
+}
+
+.profile-circle {
+  width: 40px; /* Diametro del cerchio */
+  height: 40px;
+  background-color: #b8b8b8; /* Colore grigio scuro */
+  border-radius: 50%; /* Rende il div completamente circolare */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
