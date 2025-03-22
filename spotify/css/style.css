@@ -393,3 +393,10 @@ html, body {
     left: 230px;
     width: calc(100% - 230px);
   }
+
+  @media (min-width: 576px) {
+    .main-container {
+      left: 230px;
+      width: calc(100% - 230px);
+    }
+  }
