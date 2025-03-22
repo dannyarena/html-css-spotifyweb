@@ -314,6 +314,10 @@ html, body {
   color: #b3b3b3;
 }
 
+.playlist-menu {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .sidebar {
     width: 230px;
