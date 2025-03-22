@@ -246,3 +246,24 @@ html, body {
   color: #b3b3b3;
 }
 
+.category-nav li
+{
+  cursor: pointer;
+}
+
+.green-category
+{
+  position: relative;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.green-bar
+{
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 30%;
+  height: 2px;
+  background-color: #1DB954;
+}
