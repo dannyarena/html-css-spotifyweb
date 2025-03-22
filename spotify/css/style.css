@@ -68,7 +68,7 @@ html, body {
   padding: 10px 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   z-index: 10;
 }
 
@@ -201,3 +201,48 @@ html, body {
     background-color: #b3b3b3;
     cursor: pointer;
 }
+
+.profile-cirle
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #b3b3b3;
+}
+
+.upgrade-button
+{
+  padding: 10px 10px;
+  background-color: #12121200;
+  color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  display: flex;
+  cursor: pointer;
+}
+
+.category-nav
+{
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+
+}
+
+.category-container
+{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.category-nav ul
+{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #b3b3b3;
+}
+
