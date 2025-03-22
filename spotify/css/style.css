@@ -201,12 +201,23 @@ html, body {
     cursor: pointer;
 }
 
-.profile-cirle
+.profile-circle
 {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.profile-circle img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
 }
 
 .upgrade-button
