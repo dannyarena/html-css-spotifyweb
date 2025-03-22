@@ -314,3 +314,63 @@ html, body {
   font-size: 12px;
   color: #b3b3b3;
 }
+
+@media (min-width: 576px) {
+  .sidebar {
+    width: 230px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .button
+  {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;  
+  }
+
+  .button-description {
+    display: inline;
+    font-size: 14px;
+    color: white;
+  }
+
+  .logo-button img {
+    width: 30px;
+  }
+
+  .playlist-menu {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .create-playlist {
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .plus-icon {
+    background-color: #b3b3b3;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .playlist-list {
+    list-style: none;
+    padding-left: 0;
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 2;    /* Spazio verticale tra le voci */
+  }
